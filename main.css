@@ -1,0 +1,52 @@
+body {
+	background-color: black;
+	color: rgb(83, 175, 19);
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+}
+
+div#board {
+	align-self: center;
+	width: 1024px;
+	height: 863px;
+	background: url("board.png") no-repeat;
+}
+
+div#board th,
+div#board td,
+div#board table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+div#board th,
+div#board td {
+	font-size: 38px;
+	width: 94px;
+	height: 94px;
+}
+
+div#board td {
+	border: 3px green solid;
+}
+
+form {
+	padding: 15px;
+	background-color: rgb(83, 175, 19);
+}
+
+form input{
+	background-color: rgb(152, 207, 113);
+	border-color: (83, 175, 19);
+	font-size: 1em;
+}
+
+footer.flex {
+    justify-content: space-evenly;
+}
+
+.hit {background: url(ship.png) no-repeat center center}
+.miss {background: url(miss.png) no-repeat center center}
