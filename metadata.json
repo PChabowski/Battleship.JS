@@ -1,0 +1,6 @@
+{
+  "name": "Battleship (Zagraj w okręty)",
+  "description": "Klasyczna gra w okręty (Battleship) w języku polskim z planszą 10x10, pełną flotą i trybem multiplayer Playroom SDK.",
+  "permissions": [],
+  "capabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

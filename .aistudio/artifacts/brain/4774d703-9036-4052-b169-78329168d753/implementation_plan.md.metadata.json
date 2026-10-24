@@ -1,0 +1,6 @@
+{
+  "summary":  "Kompleksowy plan rozbudowy gry w okręty (Battleship.JS):\n1. Restrukturyzacja katalogów (src/assets oraz src/components).\n2. Pełna plansza 10x10 z klasyczną polską flotą (1x4, 2x3, 3x2, 4x1) i zakazem stykania się jednostek rogami i burtami.\n3. Kreator rozstawiania własnej floty (obrót poziomo/pionowo, podgląd hover, walidacja kolizji i buforów, losowe generowanie).\n4. Menu główne: Tryb dla jednego gracza (przeciwko komputerowi) oraz Tryb wieloosobowy ze znajomym przez Playroom SDK.\n5. Architektura komponentów i synchronizacja stanu rozgrywki w czasie rzeczywistym.",
+  "updatedAt":  "2026-10-23T14:59:57.396446017Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}
